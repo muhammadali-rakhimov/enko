@@ -1,0 +1,29 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/default-backgroung.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-color {
+  /* background-color: #3C3B39; */
+  background-color: #063441;
+}
+
+.navbar-settings {
+}
+
+.logo {
+  margin: 0 40px 0 0;
+}
+
+.location-icon {
+  width: 30px;
+}
+
+.texts {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
