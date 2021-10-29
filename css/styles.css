@@ -22,22 +22,17 @@
 }
 
 .icon-nav {
-  height: 44px;
-  width: 44px;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #000;
-  padding: 12px;
+  padding: 15px;
   border-radius: 100%;
   margin-right: 15px;
   color: white;
 }
 
 .icon-nav-location {
-  padding-left: 14px;
-}
-
-.nav-span {
-  font-size: 14px;
+  height: 48px;
+  width: 48px;
 }
 
 .wallpaper {
