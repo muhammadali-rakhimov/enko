@@ -1,11 +1,4 @@
-.wallpaper {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../images/wallpaper.png");
-  background-position: 0 -100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .navbar-color {
   background-color: #fff;
@@ -16,7 +9,7 @@
 }
 
 .logo {
-  margin: -20px 60px -20px 0;
+  /* margin: -20px 60px -20px 0; */
 }
 
 .logo > img {
@@ -29,6 +22,8 @@
 }
 
 .icon-nav {
+  height: 44px;
+  width: 44px;
   font-size: 20px;
   background-color: #000;
   padding: 12px;
@@ -37,11 +32,29 @@
   color: white;
 }
 
+.icon-nav-location {
+  padding-left: 14px;
+}
+
 .nav-span {
   font-size: 14px;
 }
 
+.wallpaper {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/wallpaper.png");
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .texts {
-  /* color: white; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .block-navs {
+    
+  }
 }
