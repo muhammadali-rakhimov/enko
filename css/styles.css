@@ -1,5 +1,12 @@
+.wrapper {
+}
+
 .navbar-color {
   background-color: #fff;
+}
+
+.navbar-border {
+  border-bottom: 1px solid #000;
 }
 
 .navbar-nav {
@@ -33,14 +40,16 @@
 }
 
 .wallpaper {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-image: url("../images/wallpaper.png");
   background-position: 0 -100px;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: blur(5px);
 }
 
 .texts {
+  position: absolute;
   font-family: 'Raleway', sans-serif;
 }
