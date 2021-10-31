@@ -35,11 +35,17 @@
   border-radius: 100%;
   padding-left: 5px;
   padding-right: 5px;
+  box-shadow: inset 0 0 1em 1px #ccc;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition-duration: 0.4s;
 }
 
 .logo > img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 .location-icon {
@@ -70,32 +76,84 @@
 .wallpaper {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-image: url("../images/wallpaper.png");
-  /* background-color: #eee; */
-  background-position: 0 0px;
-  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 0 220px;
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
   filter: blur(5px);
-  -webkit-filter: blur(5px);
-  box-shadow: inset 0 0 1em 2px #999;
+  box-shadow: inset 0 0 1em 2px #000;
 }
 
 .main {
   height: 100%;
   position: absolute;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.1);
+  background-color: rgba(0,0,0, 0.7);
   font-family: 'Raleway', sans-serif;
   color: #000;
+  color: #fff;
+  overflow: scroll;
 }
 
-.jumbotron-text {
+.main-center {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
 
+.jumbotron-main {
+  text-decoration: underline;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px 0;
+}
+
+.jumbotron-description {
+  margin: 15px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron-benefits {
+  margin: 2px 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .service {
-  border: 1px solid #000;
+  box-shadow: 0 0 1em 1px #000;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.koborder {
+  border-top: 2px solid rgb(10, 70, 211);
+  border-right: 2px solid rgb(10, 70, 211);
+  border-bottom: 2px solid rgb(184, 32, 32);
+  border-left: 2px solid rgb(184, 32, 32);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* border: 2px solid #000; */
+}
+
+.value {
+  background-color: #2B2A28;
+}
+
+.footer-logo {
+  border-top: 2px solid rgb(184, 32, 32);
+  border-right: 2px solid rgb(184, 32, 32);
+  border-bottom: 2px solid rgb(10, 70, 211);
+  border-left: 2px solid rgb(10, 70, 211);
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: inset 0 0 1em 1px #ccc;
+}
+
+.footer-logo > img {
+  height: 150px;
+  width: 150px;
 }
