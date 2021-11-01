@@ -139,6 +139,34 @@
   background-color: #2B2A28;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Footer Footer Footer Footer Footer Footer Footer Footer */
+
 .footer-logo {
   display: flex;
   justify-content: center;
@@ -157,6 +185,17 @@
 .footer-logo > img {
   height: 250px;
   width: 250px;
+  border-radius: 100%;
+}
+
+.footer-color img:hover {
+  height: 240px;
+  width: 240px;
+}
+
+.footer-color img:active {
+  height: 230px;
+  width: 230px;
 }
 
 .footer-color {
