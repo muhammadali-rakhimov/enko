@@ -24,7 +24,7 @@
 }
 
 .navbar-nav {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -67,7 +67,7 @@
 }
 
 .fsz-navtext {
-  /* font-size: 15px; */
+  font-size: 15px;
 }
 
 .wallpaper {
@@ -92,29 +92,29 @@
   font-family: 'Raleway', sans-serif;
   color: #000;
   color: #fff;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .main-center {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .jumbotron-main {
   text-decoration: underline;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 0 15px 0;
 }
 
 .jumbotron-description {
   margin: 15px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron-benefits {
   margin: 2px 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .service {
@@ -177,7 +177,13 @@
   background-color: #fff;
 }
 
+.a-link {
+  text-decoration: none;
+}
 
+.formLink {
+  cursor: pointer;
+}
 
 
 
