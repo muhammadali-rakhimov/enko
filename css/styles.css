@@ -139,6 +139,50 @@
   background-color: #2B2A28;
 }
 
+.bg-about {
+  background-color: #111;
+  color: #fff;
+}
+
+.about-title {
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-player {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.bg-why {
+  background-color: #ccc;
+}
+
+.why-title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.why-description {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.why-card {
+  background-color: #fff;
+}
+
+
+
+
+
+
+
 
 
 
