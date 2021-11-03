@@ -192,6 +192,16 @@
   cursor: pointer;
 }
 
+.formLinkShadow {
+  background-color: #212529;
+  transition-duration: 300ms;
+}
+
+.formLinkShadow:hover {
+  box-shadow: 0 0 1.4em 0.1px #212529;
+  transition-duration: 200ms;
+}
+
 .ad-wallpaper {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
