@@ -56,12 +56,12 @@
                     </li>
                   </div>
                   <div class="col mx-xl-2 mx-lg-2 mx-md-5 mx-sm-5 my-3">
-                    <a class="a-link" href="#">
+                    <a class="a-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                       <li class="nav-item formLink formLinkShadow d-flex justify-content-center">
                         <div class="d-flex align-items-center fw-bold bg-dark text-white py-2 px-4">
                           <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                            <div class="icon-nav">
-                              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="headset" class="svg-inline--fa fa-headset fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z"></path></svg>
+                            <div class="icon-nav icon-nav-info">
+                              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="headset" class="svg-inline--fa fa-headset fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000" d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z"></path></svg>
                             </div>
                           </div>
                           <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 fsz-navtext">
@@ -71,6 +71,32 @@
                       </li>
                     </a>
                   </div>
+                  <!-- modal -->
+                  
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ma'lumot Qoldiring</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="col p-3 d-flex align-items-center justify-content-center">
+                              <div>
+                                <form action="">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos qui libero sunt aliquid eos incidunt ullam nihil itaque, vero repudiandae cumque necessitatibus quod porro sint mollitia amet inventore alias laboriosam?
+                                  Natus ea praesentium distinctio dolorem, nesciunt accusamus velit, rerum repellat labore non similique pariatur necessitatibus molestiae, explicabo excepturi. Magni, cumque! Corrupti soluta voluptatum sint, ut pariatur rerum cupiditate explicabo reprehenderit!
+                                  Quod nam quisquam eligendi voluptatem deserunt maxime adipisci ipsam reprehenderit iste laborum, officia nisi non. Autem numquam libero pariatur at beatae magni rem qui nulla molestiae, exercitationem soluta aut laudantium.
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- modal -->
                 </div>
               </ul>
               <div class="fw-bold d-none d-sm-none d-md-none d-lg-block d-xl-block">
@@ -377,6 +403,38 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Benefits -->
+    <div class="container-fluid bg-benefits">
+      <div class="container py-5">
+        <h1 class="why-title fw-bold mb-5">Bizning yutuqlarimiz</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://media.istockphoto.com/photos/business-man-pushing-large-stone-up-to-hill-business-heavy-tasks-and-picture-id825383494?k=20&m=825383494&s=612x612&w=0&h=tEqZ5HFZcM3lmDm_cmI7hOeceiqy9gYrkyLTTkrXdY4=" height="600" width="400" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://static.toiimg.com/thumb/msid-53891743,width-748,height-499,resizemode=4,imgsize-152022/.jpg" height="600" width="400" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://media.istockphoto.com/photos/villefranche-on-sea-in-evening-picture-id1145618475?k=20&m=1145618475&s=612x612&w=0&h=_mC6OZt_eWENYUAZz3tLCBTU23uvx5beulDEZHFLsxI=" height="600" width="400" class="d-block w-100" alt="slide3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
