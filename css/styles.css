@@ -125,20 +125,20 @@
 }
 
 .service {
-  box-shadow: 0 0 1em 1px #000;
+  box-shadow: 0 0 1em 1px rgb(0, 0, 0);
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
 
 .koborder {
-  border-top: 2px solid rgb(10, 70, 211);
-  border-right: 2px solid rgb(10, 70, 211);
-  border-bottom: 2px solid rgb(184, 32, 32);
-  border-left: 2px solid rgb(184, 32, 32);
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top: 1px solid rgb(10, 70, 211);
+  border-right: 1px solid rgb(10, 70, 211);
+  border-bottom: 1px solid rgb(184, 32, 32);
+  border-left: 1px solid rgb(184, 32, 32);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   /* border: 2px solid #000; */
 }
 
@@ -161,10 +161,14 @@
 }
 
 .about-player {
-  height: 50px;
-  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
   background-color: #fff;
   border-radius: 100%;
+  padding-left: 5px;
 }
 
 .bg-why {
@@ -329,9 +333,42 @@
   background-color: rgb(236, 236, 236);
 }
 
+.calling-icon {
+  height: 70px;
+  width: 70px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 100%;
+  color: white;
+}
+
+.calling-icon:hover {
+  background-color: rgb(10, 70, 211);
+  color: #000;
+}
 
 
+.calling-icon:active {
+  background-color: rgb(184, 32, 32);
+  color: #000;
+}
 
+.calling-icon svg {
+  height: 30px;
+  width: 30px;
+}
+
+.calling-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.calling-description {
+  font-family: 'Raleway', sans-serif;
+}
 
 
 
@@ -406,4 +443,60 @@
 
 .ad {
   /* background-color: #999; */
+}
+
+/* MediaQueries MediaQueries MediaQueries MediaQueries MediaQueries MediaQueries */
+
+@media (max-width: 576px) {
+  
+  /* .wallpaper {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../images/wallpaper.png");
+    background-color: #fff;
+    background-position: 0 220px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
+    box-shadow: inset 0 0 1em 2px #000;
+  }
+
+  .main {
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.7);
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    color: #fff;
+    overflow-y: scroll;
+  }
+
+  .main-center {
+    align-items: center;
+    justify-content: center;
+  } */
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
 }
