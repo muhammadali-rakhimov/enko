@@ -8,8 +8,6 @@ form.addEventListener("submit", e => {
   let name = document.getElementById("name").value
   let number = document.getElementById("phoneNumber").value
 
-  const token = "2080702913:AAHuwNPpkA5Xw7rNLp8LXSlwV7qa3QXcLOw"
-
   const chat_id = -725208946
 
   const text = `Foydalanuvchi: %0A - <b>Ismi:</b> ${name} %0A - <b>Nomeri:</b> ${number}`
