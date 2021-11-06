@@ -1,6 +1,5 @@
-import { token } from "./telegramApi"
-
 const form = document.getElementById("formData")
+var token = config.API_TOKEN
 
 form.addEventListener("submit", e => {
   e.preventDefault()
@@ -18,8 +17,6 @@ form.addEventListener("submit", e => {
   fetch(url)
     .then(res => alert("Muvaffaqiyatli Bajarildi!"))
     .catch(err => alert(`The problem is: ${err.message}`))
-    // .then(res => console.log(res))
-    // .catch(err => console.log(`The problem is: ${err.message}`))
   console.log("done")
 
   document.getElementById("name").value = ""
