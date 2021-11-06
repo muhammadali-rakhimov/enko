@@ -1,3 +1,5 @@
+import { token } from "./telegramApi"
+
 const form = document.getElementById("formData")
 
 form.addEventListener("submit", e => {
